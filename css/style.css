@@ -44,12 +44,12 @@ caption {
 }
 
 tr:nth-child(odd){
-  background-color: rgba(0, 36, 125, 0.1); /*rgba(207, 20, 43, 0.1);*/
+  background-color: rgba(0, 36, 125, 0.1);
 }
 
 th,
 caption {
-  background-color: rgba(0, 36, 125, 0.7); /*rgba(207, 20, 43, 0.7);*/
+  background-color: rgba(0, 36, 125, 0.7);
   color: #FFFFFF
 }
 
@@ -74,7 +74,7 @@ h2 {
 }
 
 h3 {
-  color: /*#800020*/rgba(165, 20, 43, 0.9);
+  color: rgba(165, 20, 43, 0.9);
 }
 
 section {
@@ -169,7 +169,6 @@ nav ul {
   list-style-type: none;
 }
 
-/* styling*/
 
 #wrapper {
   width: 960px;
