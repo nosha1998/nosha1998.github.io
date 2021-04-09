@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display+SC&display=swap');
+
+body {
+  font-family: "Fauna One", "Arial", "Helvetica", serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+nav,
+footer {
+  font-family: "Playfair Display SC",serif;
+  font-style: normal;
+}
+
+nav {
+  font-weight: bold;
+}
+
+section {
+  font-family: "Fauna One", serif;
+}
+
+li {
+  color: rgb(0, 36, 125);
+}
+
+li span {
+  color: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td,
+caption {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd){
+  background-color: rgba(0, 36, 125, 0.1); /*rgba(207, 20, 43, 0.1);*/
+}
+
+th,
+caption {
+  background-color: rgba(0, 36, 125, 0.7); /*rgba(207, 20, 43, 0.7);*/
+  color: #FFFFFF
+}
+
+#ukflag {
+  float: right;
+  padding-right: 14px;
+  padding-bottom: 0px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+#ukarea {
+  margin-left: 59px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+}
+h2 {
+  color: #0E2F56;
+}
+
+h3 {
+  color: /*#800020*/rgba(165, 20, 43, 0.9);
+}
+
+section {
+  font-size: 14px;
+}
+
+footer,
+footer a {
+  color: #FFFFFF
+}
+
+
+header,
+footer {
+  background-color: #00247D;
+}
+
+nav,
+section {
+  background-color: #eee;
+}
+
+nav {
+  width: auto;
+}
+
+nav li {
+  display: inline-block;
+}
+
+ nav a {
+   background-color: #eee;
+   padding: 10px;
+   display: block;
+   text-decoration: none;
+ }
+
+ nav a:link {
+   color: #00247D;
+ }
+
+ nav a:visited {
+   color: #CF142B;
+ }
+
+ nav a:hover {
+   background-color: rgba(207, 20, 43, 0.8);
+   color: #FFFFFF;
+ }
+
+ nav a:active {
+   background-color: #eee;
+   color: #000000;
+ }
+
+ footer a:link {
+   color: #FFFFFF
+ }
+
+ footer a:visited {
+   color: #0096FF;
+ }
+
+ footer a:hover {
+   color: rgb(207, 20, 43);
+ }
+
+ footer a:active {
+   color: #00FFFF;
+ }
+
+ #code a:link {
+   color: #00247D;
+ }
+
+ #code a:visited {
+   color: rgb(207, 20, 43);
+ }
+
+ #code a:hover {
+   color: #0096FF;
+ }
+
+ #code a:active {
+   color: #3F1414
+ }
+
+
+nav ul {
+  line-height: 2.5;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+/* styling*/
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "header header"
+  "nav      nav"
+  "main     main"
+  "footer footer"
+
+}
+
+h1,
+h2,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header,
+section,
+footer {
+  padding: 15px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "intro                     intro"
+  "people                geography"
+  "communications   communications"
+}
+
+footer {
+  grid-area: footer
+}
+
+#introduction {
+  grid-area: intro
+}
+
+#geography {
+  grid-area: geography
+}
+
+#people-and-society {
+  grid-area: people
+}
+
+#communications {
+  grid-area: communications
+}
+
+#code {
+  float: right;
+}
+
+#users {
+  float: left;
+  width: 50%;
+}
