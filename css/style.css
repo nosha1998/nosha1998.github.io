@@ -54,12 +54,12 @@ footer a {
 
 header,
 footer {
-  background-color: #C6A798;
+  background-color: rgb(198,156,109);
 }
 
 nav,
 section {
-  background-color: #C6A798;
+  background-color: rgb(198,156,109);
 }
 
 nav {
@@ -71,7 +71,7 @@ nav li {
 }
 
  nav a {
-   background-color: #C6A798;
+   background-color: rgb(198,156,109);
    padding: 10px;
    display: block;
    text-decoration: none;
@@ -95,7 +95,7 @@ nav li {
    color: #000000;
  }
 
- footer a:link {
+ /*footer a:link {
    color: #FFFFFF
  }
 
@@ -109,7 +109,7 @@ nav li {
 
  footer a:active {
    color: #00FFFF;
- }
+ }*/
 
 
 nav ul {
@@ -118,20 +118,28 @@ nav ul {
   list-style-type: none;
 }
 
+#bg img {
+  max-width: 100%;
+  height: auto;
+}
+
+#about-image {
+  float: right;
+}
 
 #wrapper {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 
-  /*display: grid;
-  grid-template-columns: 1fr ;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
   grid-gap: 20px;
   grid-template-areas:
   "header header"
   "nav      nav"
   "main     main"
-  "footer footer"*/
+  "footer   footer"
 
 }
 
@@ -161,6 +169,10 @@ nav {
   grid-area: nav;
 }
 
+main {
+  grid-area: main;
+}
+
 footer {
-  grid-area: footer
+  grid-area: footer;
 }
