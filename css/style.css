@@ -156,6 +156,7 @@ body{
 
 .graphics {
 	grid-template-columns: 1fr 1fr;
+  max-height: inherit;
 }
 
 .photo {
