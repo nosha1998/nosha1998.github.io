@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 body {
   font-family: "Fauna One", "Arial", "Helvetica", serif;
@@ -183,7 +184,7 @@ nav ul {
 }
 
 #text-small {
-  font-size: x-small;
+  font-size: xx-small;
 }
 
 
@@ -208,8 +209,9 @@ figcaption {
 
 
 figcaption {
-  font-size: small;
+  font-size: 18px;
   margin-top: 22px;
+  font-family: "Caveat Brush", cursive;
 }
 
 h1,
