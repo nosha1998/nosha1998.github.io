@@ -148,21 +148,21 @@ body{
 	max-width: 960px;
 }
 
-.two-up, .four-up {
+.graphics, .photo {
 	display: grid;
 	gap: 1em;
 	margin-bottom: 1em;
 }
 
-.two-up {
+.graphics {
 	grid-template-columns: 1fr 1fr;
 }
 
-.four-up {
+.photo {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.two-up img, .four-up img {
+.graphics img, .photo img {
 	max-width: 100%;
 	height: auto;
 	width: 100%;
