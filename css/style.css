@@ -175,11 +175,34 @@ nav ul {
   margin-right: 45px;
 }
 
+.graphics img {
+  width: 400px;
+  height: 490px;
+  background-color: #f8f8ff;
+  padding: 19px 19px 19px 19px;
+  box-shadow: 2px 2px 6px 0px;
+}
+
+#text-small {
+  font-size: x-small;
+}
+
+
+figure{
+  width: 336px;
+  height: 355px;
+  position: relative;
+  background-color: #f8f8ff;
+  padding: 19px 19px 0px 19px;
+  box-shadow: 2px 2px 6px 0px;
+}
+
+figure img {
+  width: 100%;
+}
 
 figure,
 figcaption {
-  margin-left: 0;
-  margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -187,6 +210,7 @@ figcaption {
 
 figcaption {
   font-size: small;
+  margin-top: 22px;
 }
 
 h1,
