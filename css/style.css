@@ -143,6 +143,33 @@ nav ul {
 
 }
 
+body{
+	padding: 1em;
+	max-width: 960px;
+}
+
+.two-up, .four-up {
+	display: grid;
+	gap: 1em;
+	margin-bottom: 1em;
+}
+
+.two-up {
+	grid-template-columns: 1fr 1fr;
+}
+
+.four-up {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.two-up img, .four-up img {
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+
+
+
 h1,
 h2,
 ul {
