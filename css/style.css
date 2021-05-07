@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display+SC&display=swap');
-/* change font, edit link states, fix home image*/
+/*  edit link states for pixabay*/
 
 body {
   font-family: "Fauna One", "Arial", "Helvetica", serif;
@@ -12,7 +12,7 @@ h2,
 h3,
 nav,
 footer {
-  font-family: "Playfair Display SC",serif;
+  font-family: "Playfair Display SC", serif;
   font-style: normal;
 }
 
@@ -23,10 +23,6 @@ nav {
 
 section {
   font-family: "Fauna One", serif;
-}
-
-li {
-  color: #000000;
 }
 
 
@@ -40,14 +36,14 @@ h2 {
 
 h3 {
   color: rgb(117, 76, 41);
+  padding-bottom: 8px;
 }
 
 section {
   font-size: 14px;
 }
 
-footer,
-footer a {
+footer {
   color: #FFFFFF
 }
 
@@ -82,34 +78,34 @@ nav li {
  }
 
  nav a:visited {
-   color: #000000;
+   color: #3f2609;
  }
 
  nav a:hover {
-   background-color: #35637A;
+   background-color: #3F2609;
    color: #FFFFFF;
  }
 
  nav a:active {
    background-color: #eee;
-   color: #000000;
+   color: #8D602D;
  }
 
- /*footer a:link {
-   color: #FFFFFF
+ a:link {
+   color: #35637A;
  }
 
- footer a:visited {
-   color: #0096FF;
- }
-
- footer a:hover {
+ a:visited {
    color: rgb(207, 20, 43);
  }
 
- footer a:active {
-   color: #00FFFF;
- }*/
+ a:hover {
+   color: #0096FF;
+ }
+
+ a:active {
+   color: #11303F;
+ }
 
 
 nav ul {
@@ -133,7 +129,7 @@ nav ul {
   margin-right: auto;
 
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   grid-template-areas:
   "header header"
@@ -143,30 +139,54 @@ nav ul {
 
 }
 
-body{
-	padding: 1em;
-	max-width: 960px;
-}
-
-.graphics, .photo {
+.graphics,
+.photo {
 	display: grid;
-	gap: 1em;
-	margin-bottom: 1em;
+	gap: 16px;
 }
 
 .graphics {
 	grid-template-columns: 1fr 1fr;
-  max-height: inherit;
 }
 
 .photo {
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
 .graphics img, .photo img {
 	max-width: 100%;
 	height: auto;
 	width: 100%;
+}
+
+.column,
+.course {
+  float: left;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.course {
+  margin-right: 45px;
+}
+
+
+figure,
+figcaption {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+figcaption {
+  font-size: small;
 }
 
 h1,
@@ -180,6 +200,7 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 
 header,
 section,
